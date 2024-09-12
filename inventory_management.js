@@ -13,7 +13,7 @@ console.log(inventory);
 
 //Task 2: Create a Function to Display Product Details
 function displayProductDetails(product) {
-let stockLevel = product.quantity <= product.lowStockLevel ? 'Low Stock' : 'In Stock';
+let stockLevel = product.quantity > product.lowStockLevel ? 'In Stock' : 'Low Stock';
 console.log(`Name: ${product.name}`);
 console.log(`Price: $${product.price}`);
 console.log(`Quantity: ${product.quantity}`);
@@ -24,3 +24,13 @@ Function is meant to display "Low stock level' if the stock is equal to or less 
 Function is meant to display the product as "in stock" if the stock is above low stock level in quantity.
 This way, we ensure the code is displaying the correct status based on the quanity of the product.
 Task 2 is now complete. */
+
+// Task 3: Create a Function to Update Product Stock After Sales
+function updateStock(product, unitsSold) 
+{product.quantity -= unitsSold;
+// This code shows that we should minus the units sold from the total quantity of the product to get the accurate stock amount remaining.
+console.log(product.name + ' shows as ' + (product.quantity <= 0 ? 'out of stock' : 
+product.quantity <= product.lowStockLevel ? '"low stock"' : '"in stock"'));}
+// Stock status is now printed
+updateStock(inventory[0], 90);
+// Task 3 is now complete.
