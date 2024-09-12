@@ -12,6 +12,15 @@ console.log(inventory);
 // Task 1 is now complete.
 
 //Task 2: Create a Function to Display Product Details
-function displayProductDetails(inventory) {
-let stockStatus = product.quantity <= product.lowStockLevel ? 'Low Stock' : 'In Stock';
-}
+function displayProductDetails(product) {
+let stockLevel = product.quantity <= product.lowStockLevel ? 'Low Stock' : 'In Stock';
+console.log(`Name: ${product.name}`);
+console.log(`Price: $${product.price}`);
+console.log(`Quantity: ${product.quantity}`);
+console.log(`Stock Level: ${stockLevel}`);};
+displayProductDetails(inventory [0]);
+/* Function to Display Product Details has been created
+Function is meant to display "Low stock level' if the stock is equal to or less than the low stock level.
+Function is meant to display the product as "in stock" if the stock is above low stock level in quantity.
+This way, we ensure the code is displaying the correct status based on the quanity of the product.
+Task 2 is now complete.  */
