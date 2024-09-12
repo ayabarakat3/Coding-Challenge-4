@@ -8,4 +8,4 @@ let inventory =
 // An array was created to list 5 chosen products.
 // Products, price, quanity and low stock level numbers were decided. 
 console.log(inventory);
-
+// Task 1 is now complete.
