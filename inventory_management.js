@@ -1,11 +1,12 @@
 // Task 1: Create an Inventory Array of Product Objects
-let inventory = 
-[{Name: "Mascara", price: 20, quantity: 100, lowStockLevel: 20},
-{Name: "Lipstick", price: 24, quantity: 150, lowStockLevel: 30},
-{Name: "Highlighter", price: 28, quantity: 90, lowStockLevel: 10},
-{Name: "Powder", price: 40, quantity: 130, lowStockLevel: 25},
-{Name: "Concealer", price: 35, quantity: 170, lowStockLevel: 40},];
-// An array was created to list 5 chosen products.
-// Products, price, quanity and low stock level numbers were decided. 
+
+const inventory = [
+{ name: 'Laptop', price: 1200, quantity: 10, lowStockLevel: 3 },
+{ name: 'Smartphone', price: 800, quantity: 5, lowStockLevel: 2 },
+{ name: 'Tablet', price: 400, quantity: 7, lowStockLevel: 1 },
+{ name: 'Headphones', price: 100, quantity: 15, lowStockLevel: 5 },
+{ name: 'Smartwatch', price: 250, quantity: 3, lowStockLevel: 1 }];
+// An array was created to list 5 given products.
+// Products, price, quanity and low stock level numbers were given from the sample data. 
 console.log(inventory);
 // Task 1 is now complete.
