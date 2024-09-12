@@ -23,4 +23,4 @@ displayProductDetails(inventory [0]);
 Function is meant to display "Low stock level' if the stock is equal to or less than the low stock level.
 Function is meant to display the product as "in stock" if the stock is above low stock level in quantity.
 This way, we ensure the code is displaying the correct status based on the quanity of the product.
-Task 2 is now complete.  */
+Task 2 is now complete. */
