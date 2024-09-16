@@ -70,4 +70,5 @@ processSale('Duck', 70);
 // Error message tested on items not found in the inventory.
 // Error message displays expected output. 
 //Task 6 is now complete. 
-// All tasks have now been complete.
+
+// All tasks have now been complete. 
